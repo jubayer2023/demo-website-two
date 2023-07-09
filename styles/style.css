@@ -145,11 +145,83 @@ body {
     display: flex;
     align-items: center;
 }
-.my-plan-bottom h3{
+
+.my-plan-bottom h3 {
     font-size: 30px;
     font-weight: 800;
     color: #fff;
 }
-.plan-item-description{
+
+.plan-item-description {
     padding-left: 40px;
+}
+
+
+/* footer part start */
+footer {
+    background-color: #151414;
+    padding: 80px 0px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+}
+
+.footer-left-side {
+    width: 45%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-description {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.left-title {
+    color: #F8F8F8;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.footer-left-side a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.footer-icon img {
+    width: 40px;
+    margin-top: 25px;
+    padding-right: 20px;
+
+}
+
+.right-title {
+    color: #F8F8F8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.footer-right-side #email {
+    padding: 10px;
+    width: 180px;
+    margin: 20px 0px;
+    color:  #F3F3F3;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #151414;
+    border-radius: 10px;
+    border: 1px solid white ;
+}
+
+.footer-btn{
+    background-color: #005FAC;
+    color: #fff;
 }
